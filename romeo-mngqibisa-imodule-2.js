@@ -31,9 +31,10 @@ console.log(AppAwardsWinner(mtnAppCategories));
 
 const fs = require('fs');
   
-let data = "Wa ba biza bonke uNoah, wabakhela inqananwe, wathi imvul'iyeza, oh ngena Noah...!";
+let data = 
+  "App Name: UniWise,\nCategory: Education, \nDeveloper: Themba Ngoma";
   
-fs.writeFile("NgenaNoah.txt", data, (err) => {
+fs.writeFile("CampusCup2021.txt", data, (err) => {
   if (err) {
     console.log(err);
   } else {
@@ -42,7 +43,7 @@ fs.writeFile("NgenaNoah.txt", data, (err) => {
 });
 
 
-fs.readFile('NgenaNoah.txt', (err, data) => {
+fs.readFile('CampusCup2021.txt', (err, data) => {
   if (err) {
     console.log(err);
   } else {

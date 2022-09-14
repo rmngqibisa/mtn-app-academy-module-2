@@ -20,13 +20,12 @@ const mtnAppCategories = [
     "Huawei AppGallery"
   ];
 
-function AppAwardsWinner(mtnAppCategories) {
+function AppAwardsWinner() {
       
       const random = Math.floor(Math.random()*mtnAppCategories.length-1);
       return mtnAppCategories[random];
 }
 console.log(AppAwardsWinner(mtnAppCategories));
-
 
 
 const fs = require('fs');
@@ -50,3 +49,20 @@ fs.readFile('CampusCup2021.txt', (err, data) => {
   console.log(data.toString());
   }
 });
+
+/*
+
+//I wrote this code homeage on the Xhosa/Zulu version of the famous song based on Noah and his ark.   
+
+const peopleListenedToNoahsWarning = true;
+
+function shouldNoahNgenaKwiNqanawe () {
+  if (peopleListenedToNoahsWarning === true) {
+    return 'Ohhh, ngena Noah! \n[Nesizukulwana sakho!]';
+  } else {
+    return 'Ba bize bonke, Noah!';
+  } 
+}
+console.log(shouldNoahNgenaKwiNqanawe()); 
+
+*/

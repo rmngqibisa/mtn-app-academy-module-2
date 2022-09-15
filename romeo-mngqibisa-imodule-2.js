@@ -52,7 +52,7 @@ fs.readFile('CampusCup2021.txt', (err, data) => {
 
 
 
-//I wrote this code homeage on the Xhosa/Zulu version of the famous song based on Noah and the ark.   
+//I wrote this code as homeage on the Xhosa/Zulu version of the famous song based on Noah and the ark.   
 
 const uNoahGavePeopleWarning = true;
 const peopleListenedToNoahsWarning = true;

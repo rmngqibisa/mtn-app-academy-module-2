@@ -50,19 +50,23 @@ fs.readFile('CampusCup2021.txt', (err, data) => {
   }
 });
 
-/*
 
-//I wrote this code homeage on the Xhosa/Zulu version of the famous song based on Noah and his ark.   
 
+//I wrote this code homeage on the Xhosa/Zulu version of the famous song based on Noah and the ark.   
+
+const uNoahGavePeopleWarning = true;
 const peopleListenedToNoahsWarning = true;
 
 function shouldNoahNgenaKwiNqanawe () {
-  if (peopleListenedToNoahsWarning === true) {
-    return 'Ohhh, ngena Noah! \n[Nesizukulwana sakho!]';
+if (uNoahGavePeopleWarning) {
+  if (peopleListenedToNoahsWarning) {
+    return 'Ohhh, ngena Noah! (Nesizukulwana sakho)';
   } else {
-    return 'Ba bize bonke, Noah!';
-  } 
+    return 'Bakhumbuze ukuthi imvula iyeza!'
+  }
+} else {
+  return 'Ba bize bonke, Noah! \nUba akhele inqananwe, ngobe imvula iyeza!';
+}
 }
 console.log(shouldNoahNgenaKwiNqanawe()); 
 
-*/
